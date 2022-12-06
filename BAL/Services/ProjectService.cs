@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ProjectManager.BAL.Services
 {
-    public class ProjectService : IProjectService
+    public class ProjectService : IProjectService //business logic of ProjectController 
     {
         private readonly ProjectManagerDbContext projectManagerDbContext;
         public ProjectService(ProjectManagerDbContext projectManagerDbContext)

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ProjectManager.BAL.Services
 {
-    public class TaskService : ITaskService
+    public class TaskService : ITaskService //business logic of TaskController
     {
         private readonly ProjectManagerDbContext projectManagerDbContext;
         public TaskService(ProjectManagerDbContext projectManagerDbContext)
