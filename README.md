@@ -2,7 +2,7 @@
 
 Guide "How to run this project?"
 
-Step 1. Make sure you have .Net 6 installed in your computer
+Step 1. Make sure you have .Net 7 installed in your computer
 
 ```
 dotnet --version
@@ -29,9 +29,6 @@ Step 5. Run this app
 ```
 dotnet run
 ```
-
-
-Step 6. Invite me to interview :)
 
 
 ## Congratulations !!!
